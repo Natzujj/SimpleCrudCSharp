@@ -1,0 +1,120 @@
+/* Global Styles */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Cor de fundo do body */
+}
+
+/* Botões e Inputs */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Tabela Estilizada */
+.BlueGreen {
+  font-family: 'Arial', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #17A2B8;
+  margin-top: 20px; /* Espaçamento superior para a tabela */
+}
+
+.BlueGreen th,
+.BlueGreen td {
+  border: 1px solid #17A2B8;
+  padding: 10px; 
+  line-height: 20px;
+}
+
+.BlueGreen th {
+  border: 1px solid #9d79ad;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  text-align: left;
+  background-color: #17A2B8;
+  color: white;
+  line-height: 30px;
+}
+
+.BlueGreen tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.BlueGreen tr:hover {
+  background-color: #6ab0bb;
+  color: white;
+}
+
+.BlueGreen td,
+.BlueGreen th {
+  font-size: 14px;
+}
+
+.BlueGreen a:hover {
+  color: #fff;
+}
+
+.page-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #17A2B8;
+}
+
+.item-form {
+  margin-top: 20px;
+}
+
+.validation-summary {
+  margin-bottom: 10px;
+}
+
+.validation-message {
+  font-size: 12px;
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  margin-top: 5px;
+}
+
+.btn-submit {
+  background-color: #17A2B8;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #258cfb;
+}
+
+.back-link {
+  color: #17A2B8;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+@model MeuCrudCSharp.Models.Item
+
+@{
+    ViewData["Title"] = "Detalhes do Item";
+}
+
+<div class="col-md-8">
+    <h4>Detalhes: Item</h4>
+    <hr />
+    <table class="BlueGreen">
+    <tr><th>Id</th><td>@Model.Id</td></tr>
+    <tr><th>Nome</th><td>@Model.Nome</td></tr>
+    <tr><th>Preço R$</th><td>@Model.Preco</td></tr>
+</table>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar para Lista</a>
+</div>
